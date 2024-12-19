@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body,html{
+        width: 100%;
+    }
+    #head,#main,#footer,#wrapper{
+        width: 100%;
+    }
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    #head{
+        height: 15vh;
+        background-color: rgb(252, 193, 1);
+    }
+    #main{
+        height: 70vh;
+        background-color: white;
+        display: flex;
+        overflow: scroll;
+    }
+    #footer{
+        display: flex;
+        height: 15vh;
+        background-color: rgb(252, 193, 1);
+        
+    }
+    .block{
+        height: 200%;
+        width: 100%;
+        font-size: 25px;
+        margin-left: 1%;
+    
+    }
+    .return1{
+        
+        display: flex;
+        height: 60%;
+        width: 25%;
+        background-color: rgb(204, 160, 15);
+        margin-left: 1vw;
+        margin-top: 3vh;
+        border-radius: 1vw;
+        text-align: center;
+    }
+    #return2{
+        margin: auto;
+        font-size: 2vw;
+    }
+    .settings1{
+        
+        display: flex;
+        height: 60%;
+        width: 25%;
+        background-color: rgb(204, 160, 15);
+        margin-left: 73.5vw;
+        margin-top: -9vh;
+        border-radius: 1vw;
+        text-align: center;
+    }
+    .settings2{
+        margin: auto;
+        font-size: 2vw;
+    }
+    .not{
+        height: 100%;
+        width: 25%;
+        background-color: rgb(252, 193, 1);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 0.08vw solid black;
+    }
+    .notif{
+        width: 25%;
+        height: 80%;
+        margin-top: 3%;
+    }
+    .mail{
+        height: 100%;
+        width: 25%;
+        background-color: rgb(252, 193, 1);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 0.08vw solid black;
+    }
+    .maill{
+        width: 25%;
+        height: 80%;
+        margin-top: 3%;
+    }
+    .user{
+        height: 100%;
+        width: 25%;
+        background-color: rgb(252, 193, 1);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 0.08vw solid black;
+    }
+    .users{
+        width: 25%;
+        height: 80%;
+        margin-top: 3%;
+    }
+    .hom{
+        height: 100%;
+        width: 25%;
+        background-color: rgb(252, 193, 1);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 0.08vw solid black;
+    }
+    .home{
+        width: 25%;
+        height: 80%;
+        margin-top: 3%;
+    }
+    .back{
+    
+        width: 15%;
+        height: 80%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .gear{
+        width: 15%;
+        height: 80%;
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    .human{
+        display: flex;
+        width: 40vw;
+        height: 40vh;
+    }
+    .p{
+        font-size: 2vh;
+        text-indent: 2%;
+        margin-left:10%;
+        width: 50%;
+        text-align: justify;
+    }
